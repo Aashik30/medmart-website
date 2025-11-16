@@ -1,0 +1,299 @@
+/* HERO SECTION */
+.hero {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+/* Floating images alignment */
+.hero-mask {
+    position: absolute;
+    width: 200px;
+    left: 0px;
+    top: 200px;
+    opacity: 0.7;
+}
+
+.hero-injection {
+    position: absolute;
+    width: 150px;
+    left: 0px;
+    top: 20px;
+}
+
+.hero-bottle {
+    position: absolute;
+    width: 200px;
+    right: -40px;
+    top: 100px;
+}
+
+.hero-tablet {
+    position: absolute;
+    width: 100px;
+    left: 649px;
+    top: 92px;
+}
+
+.hero-content h1 {
+    line-height: 1.2;
+}
+
+/* FEATURES SECTION */
+.feature-box {
+    background: #1e1e1e;
+    min-height: 40vh;
+}
+
+.hero-mask,
+.hero-injection,
+.hero-bottle,
+.hero-tablet {
+    position: absolute;
+    z-index: 1;
+}
+
+.review-bar {
+    background: #ffffff;
+}
+
+.review-text {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.promo-box {
+    position: relative;
+    background: #fff;
+}
+
+.promo-box img {
+    display: block;
+    width: 100%;
+}
+
+.promo-content {
+    position: absolute !important;
+    right: 40px;
+    bottom: 46px;
+}
+
+.bg-essential {
+    background-image: url("img/bg_essential.png");
+}
+
+.medical-section {
+    background: #fff;
+}
+
+.section-title {
+    font-size: 28px;
+    color: #222;
+}
+
+.section-subtitle {
+    font-size: 14px;
+    color: #777;
+}
+
+/* Product card */
+.product-card {
+    padding: 5px;
+    background: #fff;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.product-card h6 {
+    font-size: 15px;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.price {
+    font-size: 15px;
+    color: #0d6efd;
+    font-weight: 500;
+}
+
+/* Badges */
+.badge-off {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #0d6efd;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 20px;
+}
+
+.badge-sale {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff2d55;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 11px;
+    border-radius: 20px;
+}
+
+/* Tab Styling */
+.nav-tabs .nav-link {
+    color: #555;
+    font-weight: 500;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.bottom_product_card {
+    background: #353639;
+    padding: 10px 0;
+}
+
+.faq-box {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.faq-btn {
+    width: 100%;
+    background: #fff;
+    border: none;
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-btn .icon {
+    font-size: 20px;
+    color: #0d6efd;
+    font-weight: bold;
+}
+
+.faq-content {
+    display: none;
+    padding: 15px 20px;
+    font-size: 14px;
+    color: #555;
+    border-top: 1px solid #eee;
+}
+
+
+.icon-section {
+    background: #fff;
+}
+
+.icon-box {
+    padding: 10px;
+}
+
+.icon-circle {
+    width: 55px;
+    height: 55px;
+    border: 2px dashed #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-size: 14px;
+    color: #555;
+}
+
+.footer-links a {
+    color: #fff !important;
+    /* make text white */
+    text-decoration: none !important;
+    /* remove underline */
+}
+
+.footer-links a:hover {
+    color: #0d6efd !important;
+    /* optional hover color */
+}
+
+
+
+
+
+
+/* Ipad Optimizations */
+@media (max-width: 969px) {
+    .feature-box {
+        min-height: 0;
+    }
+}
+
+/* Mobile Optimizations */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-mask,
+    .hero-injection,
+    .hero-bottle,
+    .hero-tablet {
+        width: 120px;
+        /* adjust size */
+        opacity: 0.9;
+    }
+
+    .feature-box {
+        min-height: auto;
+    }
+
+    .review-logos {
+        margin-top: 10px;
+    }
+
+    .mobile_none {
+        display: none;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    .section-subtitle {
+        font-size: 13px;
+    }
+
+    .product-card {
+        margin-bottom: 15px;
+    }
+
+    .faq-btn {
+        font-size: 15px;
+    }
+
+    .icon-box {
+        text-align: left;
+    }
+
+}
